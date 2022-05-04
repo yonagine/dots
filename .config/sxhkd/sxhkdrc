@@ -10,7 +10,7 @@ super + Return
 # @ is added - run on key release, otherwise key press
 # super + @space
 F2
-	dmenu_run
+	~/.config/rofi/launchers/text/launcher.sh
 
 super + w
 	firefox
