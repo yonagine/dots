@@ -1,6 +1,7 @@
 [color]
 background = #02131a
 foreground = #a9b1d6
+front = #a9b1d6
 black = #1a1b26
 red = #f7768e
 green = #9ece6a

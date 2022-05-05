@@ -100,7 +100,19 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH="/home/yonagi/.local/bin:$PATH"
-alias nagare='cd ~/Projects/yonagine/nagare/'
+# Bash equivalent
+# export PATH="/home/yonagi/.local/bin:$PATH"
+
+# zsh equivalent
+path+=('/home/yonagi/.local/bin')
+export PATH
+
+# aliases
+alias nagare="cd ~/Projects/yonagine/nagare/"
+# get code for keypress for keyboard mappings
+alias getkeypresscode="xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf \"%-3s %s\n\", \$5, \$8 }'"
+
+# if bspwm is not opening links correctly
+# xdg-settings set default-web-browser firefox.desktop
 
 theme.sh gruvbox-material-dark-hard

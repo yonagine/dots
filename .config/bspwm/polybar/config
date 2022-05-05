@@ -54,18 +54,18 @@ font-3 = "Iosevka Nerd Font:size=18;4"
 font-4 = "Source Han Sans VF:style=Bold:size=10;3"
 
 # Default
-modules-left = spacing YLD launcher RD GPL bspwm GRD sep
+modules-left = spacing YLD launcher RD GPL bspwm GRD spacing
 modules-center = 
-modules-right = GLD date GPL BLD time BRD spacing
+modules-right = GLD volume GPL date GRD spacing BLD time BRD spacing
 
 spacing = 0
 dim-value = 1.0
 
-tray-position = right
+tray-position = center
 tray-detached = false
 tray-maxsize = 16
 tray-background = ${color.background}
-tray-offset-x = -315
+tray-offset-x = 560
 tray-offset-y = 1
 tray-padding = 0
 tray-scale = 1.0
@@ -120,14 +120,14 @@ font-3 = "Iosevka Nerd Font:size=18;4"
 font-4 = "Source Han Sans VF:style=Bold:size=10;3"
 
 # Default
-modules-left = spacing YLD launcher RD GPL bspwm GRD sep
+modules-left = spacing YLD launcher RD GPL bspwm GRD
 modules-center = 
-modules-right = GLD date GPL BLD time BRD spacing
+modules-right = GLD volume GPL date GRD spacing BLD time BRD spacing
 
 spacing = 0
 dim-value = 1.0
 
-tray-position = right
+tray-position = none
 tray-detached = false
 tray-maxsize = 16
 tray-background = ${color.background}

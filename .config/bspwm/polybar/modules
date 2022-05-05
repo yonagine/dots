@@ -78,7 +78,8 @@ ramp-foreground = ${color.red}
 [module/volume]
 type = internal/pulseaudio
 
-sink = alsa_output.pci-0000_12_00.3.analog-stereo
+;; get name via pacmd list-sinks
+sink = alsa_output.usb-Focusrite_Scarlett_2i2_USB_Y8YPK3R0640B14-00.analog-stereo
 
 use-ui-max = false
 
@@ -112,7 +113,7 @@ ramp-volume-7 = "  "
 ramp-volume-8 = "  "
 ramp-volume-9 = "  "
 ramp-volume-font = 2
-ramp-volume-foreground = ${color.red}
+ramp-volume-foreground = ${color.green}
 ramp-volume-background = ${color.black}
 
 ramp-headphones-0 = 
