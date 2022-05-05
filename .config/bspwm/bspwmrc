@@ -1,13 +1,13 @@
 #! /bin/sh
 
 sxhkd &
-feh --bg-center ~/ピクチャ/緑/1.jpg &
+feh --bg-fill ~/ピクチャ/緑/1.jpg &
 $HOME/.config/bspwm/polybar/launch.sh
 
 # bspc monitor -d I II III IV V VI VII VIII IX X
 
 # multi monitor rules
-# xrandr -q | grep -w connected
+# get monitor name from: xrandr -q | grep -w connected
 bspc monitor DP-0 -d I II III IV V
 bspc monitor HDMI-0 -d VI VII VIII IX X
 
