@@ -188,15 +188,15 @@ reverse-scroll = true
 
 fuzzy-match = true
 
-ws-icon-0=I;㆒
-ws-icon-1=II;二
-ws-icon-2=III;三
-ws-icon-3=IV;四
-ws-icon-4=V;五
-ws-icon-5=VI;六
-ws-icon-6=VII;七
-ws-icon-7=VIII;八
-ws-icon-8=IX;九
+ws-icon-0=I;氷
+ws-icon-1=II;風
+ws-icon-2=III;炎
+ws-icon-3=IV;雷
+ws-icon-4=V;岩
+ws-icon-5=VI;漣
+ws-icon-6=VII;曙
+ws-icon-7=VIII;泡
+ws-icon-8=IX;暁
 ws-icon-default = 
 
 format = <label-state>
@@ -351,7 +351,7 @@ label = "%{A1:terminal -e htop &:} %gb_used% %{A}"
 [module/launcher]
 type=custom/text
 ;; content = 
-content = "永"
+content = "世界"
 content-font = 1
 content-foreground= ${color.black}
 content-background = ${color.green} 
