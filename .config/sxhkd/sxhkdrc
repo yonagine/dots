@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	kitty
+	LANG=ja_JP.UTF-8 kitty
 
 # program launcher
 # @ is added - run on key release, otherwise key press
