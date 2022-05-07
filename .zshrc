@@ -70,7 +70,12 @@ ZSH_THEME="yonagi"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions copyfile copybuffer)
+plugins=(git zsh-autosuggestions copyfile copybuffer web-search)
+
+# removes mounted ls colors - must be placed after plugins and before source
+eval "$(dircolors -p | \
+    sed 's/ 4[0-9];/ 01;/; s/;4[0-9];/;01;/g; s/;4[0-9] /;01 /' | \
+    dircolors /dev/stdin)"
 
 source $ZSH/oh-my-zsh.sh
 
